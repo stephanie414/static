@@ -19,6 +19,7 @@ body {
     background: #1a5bb8;
     text-align: center;
     padding: 12px;
+    z-index: 1000;
 }
 
 .nav a {
@@ -57,6 +58,11 @@ body {
     margin-top: 15px;
     text-decoration: none;
     border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #1a5bb8;
 }
 
 /* SECTIONS */
@@ -97,7 +103,7 @@ footer {
     padding: 15px;
 }
 
-/* MOBILE CALL BUTTON */
+/* CALL BUTTON */
 .call-btn {
     position: fixed;
     bottom: 20px;
@@ -107,6 +113,15 @@ footer {
     padding: 15px;
     border-radius: 50%;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* MOBILE FIX */
+@media (max-width: 500px) {
+    .call-btn {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px;
+    }
 }
