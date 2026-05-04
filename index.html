@@ -1,85 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO -->
-    <title>Boulevard Dental Associates | Dr. Jensen | Port St. Lucie Dentist</title>
-    <meta name="description" content="Boulevard Dental Associates in Port St. Lucie, FL. Dr. Jensen provides gentle, professional dental care. Call (772) 337-1111 to book an appointment.">
-    <meta name="keywords" content="dentist Port St Lucie, dental clinic Florida, teeth cleaning, cosmetic dentistry, emergency dentist">
+<title>Boulevard Dental Associates | Dentist in Port St. Lucie, FL</title>
+<meta name="description" content="Looking for a dentist in Port St. Lucie? Boulevard Dental Associates offers cleanings, cosmetic dentistry, and emergency care. Call (772) 337-1111.">
 
-    <!-- Social -->
-    <meta property="og:title" content="Boulevard Dental Associates">
-    <meta property="og:description" content="Trusted dental care in Port St. Lucie, FL">
+<link rel="stylesheet" href="/style.css">
 
-    <link rel="stylesheet" href="/style.css">
+<!-- Local SEO (VERY important) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Boulevard Dental Associates",
+  "image": "https://drjensendentistry.com/steph.jpg",
+  "telephone": "+1-772-337-1111",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1343 SE Port St Lucie Blvd",
+    "addressLocality": "Port St. Lucie",
+    "addressRegion": "FL"
+  },
+  "openingHours": [
+    "Tu 08:30-17:00",
+    "We 08:30-17:00",
+    "Th 08:30-17:00",
+    "Fr 09:00-15:00"
+  ]
+}
+</script>
+
 </head>
 <body>
 
-<header>
+<header class="header">
     <h1>Boulevard Dental Associates</h1>
-    <p>Dr. Jensen | Compassionate Care. Beautiful Smiles.</p>
+    <p>Dr. Jensen | Modern, Comfortable Dental Care</p>
 </header>
 
-<nav>
+<nav class="nav">
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="hero">
+<!-- HERO -->
+<section class="hero">
     <div class="hero-content">
-        <img src="/steph.jpg" alt="Dr. Jensen" class="profile-pic">
+        <img src="/steph.jpg" class="profile-pic">
         <div>
-            <h2>Your Trusted Dentist in Port St. Lucie</h2>
-            <p>We provide high-quality, comfortable dental care for the whole family.</p>
-            <a href="tel:17723371111" class="btn">Call Now</a>
+            <h2>Top-Rated Dentist in Port St. Lucie</h2>
+            <p>Gentle, modern dentistry focused on your comfort and long-term oral health.</p>
+            <a href="tel:17723371111" class="btn">Call (772) 337-1111</a>
         </div>
     </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
     <h2>About Dr. Jensen</h2>
-    <p>Dr. Jensen and the team at Boulevard Dental Associates are committed to delivering personalized dental care in a comfortable environment. We use modern techniques to ensure every visit is efficient and stress-free.</p>
+    <p>At Boulevard Dental Associates, we provide personalized care using the latest dental technology. Our goal is to make every visit comfortable and stress-free.</p>
 </section>
 
+<!-- SERVICES -->
 <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-        <li>General Dentistry</li>
-        <li>Teeth Cleaning</li>
-        <li>Cosmetic Dentistry</li>
-        <li>Dental Implants</li>
-        <li>Emergency Care</li>
-    </ul>
+    <h2>Dental Services</h2>
+
+    <div class="card-grid">
+        <div class="card">
+            <h3>Teeth Cleaning</h3>
+            <p>Professional cleanings to keep your smile healthy.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cosmetic Dentistry</h3>
+            <p>Whitening, veneers, and smile makeovers.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dental Implants</h3>
+            <p>Permanent solutions for missing teeth.</p>
+        </div>
+
+        <div class="card">
+            <h3>Emergency Care</h3>
+            <p>Fast treatment when you need it most.</p>
+        </div>
+    </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-    <h2>Contact Us</h2>
+    <h2>Visit Our Office</h2>
 
-    <p><strong>Phone:</strong> <a href="tel:17723371111">(772) 337-1111</a></p>
-    <p><strong>Address:</strong> 1343 SE Port St Lucie Blvd, Port St. Lucie, FL</p>
+    <p><strong>📍 Address:</strong> 1343 SE Port St Lucie Blvd, Port St. Lucie, FL</p>
+    <p><strong>📞 Phone:</strong> <a href="tel:17723371111">(772) 337-1111</a></p>
 
     <h3>Hours</h3>
     <p>Tuesday – Thursday: 8:30 AM – 5:00 PM</p>
     <p>Friday: 9:00 AM – 3:00 PM</p>
 
-    <!-- Google Maps -->
     <div class="map">
-        <iframe 
-            src="https://www.google.com/maps?q=1343+SE+Port+St+Lucie+Blvd+Port+St+Lucie+FL&output=embed"
-            width="100%" 
-            height="300" 
-            style="border:0;" 
-            loading="lazy">
-        </iframe>
+        <iframe src="https://www.google.com/maps?q=1343+SE+Port+St+Lucie+Blvd+Port+St+Lucie+FL&output=embed"></iframe>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 Boulevard Dental Associates. All rights reserved.</p>
+    <p>&copy; 2026 Boulevard Dental Associates</p>
 </footer>
+
+<!-- MOBILE CALL BUTTON -->
+<a href="tel:17723371111" class="call-btn">📞 Call</a>
 
 </body>
 </html>
